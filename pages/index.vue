@@ -47,10 +47,10 @@
     </section>
     <section class="background-light-grey">
       <p class="container mx-auto py-16 px-6 sm:px-0">
-        Bel Marin Keys is an beautiful waterfront community located east of the city of Novato.
+        Bel Marin Keys is a beautiful waterfront community located east of the city of Novato.
         The community has approximately 700 homes. Most of the homes sit either on one of the many lagoons or on Novato Creek.
         All of the lagoons have access to San Pablo Bay through the navigational locks. Bel Marin Keys was a planned community built between the late 1950s and late 1980s.
-        Phases 1 through 4 were completed, but phase 5 was never built and instead the land is in the process of being restored back into the wetlands of Whiteside marsh, which were drained in the early 1900s for farm land.
+        Phases 1 through 4 were completed, but phase 5 was never built and instead the land is in the process of being restored back into the wetlands of Whiteside marsh, which were drained in the early 1900s for farmland.
       </p>
     </section>
     <section class="community-history container mx-auto py-20 px-6 sm:px-0">
