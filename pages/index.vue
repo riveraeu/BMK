@@ -7,41 +7,21 @@
           BelMarinKeys.Info
         </p>
         <p class="title">
-          One Stop for BMK Real Estate and<br>Community Info
+          One Stop for BMK
         </p>
-        <a class="pt-4 no-underline text-white inline-block" href="/homeSales">Explore Homes</a>
+        <div class="hero-cta pt-4">
+          <a href="/community">Community</a>
+          <a href="/history">History</a>
+          <a href="/photos">Photos</a><br>
+          <a href="/homeSales">Home Sales & Listings</a>
+        </div>
       </div>
     </section>
-    <section class="container mx-auto py-20 px-6 sm:px-0 local-experts">
-      <div class="flex flex-wrap">
-        <div class="w-4/5 sm:w-2/5">
-          <img src="https://res.cloudinary.com/rivera-web-solutions/image/upload/v1557875262/BMK/MarcandAndrea-CBHeadshot.jpg" alt="Headshot of Marc and Andrea">
-        </div>
-        <div class="sm:pl-8 flex flex-col flex-wrap">
-          <div class="pb-4">
-            <p>Andrea Kraemer</p>
-            <p>REALTOR®</p>
-            <p>CalRE #02002761</p>
-            <a href="tel:415.408.1091">415.408.1091</a><br>
-            <a href="mailto:Andrea.Kraemer@cbnorcal.com">Andrea.Kraemer@cbnorcal.com</a><br>
-            <a href="https://www.andreasellsmarin.com/">AndreaSellsMarin.com</a>
-          </div>
-          <div>
-            <p>Marc Chappell</p>
-            <p>MBA, Broker Associate</p>
-            <p>CalRE #01864642</p>
-            <a href="tel:415.328.2992">415.328.2992</a><br>
-            <a href="Marc.Chappell@cbnorcal.com">Marc.Chappell@cbnorcal.com</a><br>
-            <a href="https://www.GreatHomesMarin.com">GreatHomesMarin.com</a>
-          </div>
-        </div>
-      </div>
-      <div class="pt-6">
+    <section class="container mx-auto py-20 px-6 sm:px-0">
+      <contactInfo />
+      <div class="pt-6 local-experts">
         <p class="header pb-2">Local Experts</p>
-        <p>
-          With 26 years of Real Estate experience, Andrea has extensive knowledge of trends and intricacies of Real Estate making her the perfect guide when you want to buy or sell a property.
-          Marc has a passion for real estate, works seven days a week and always puts his client’s needs first. Get in contact today with these Bel Marin Keys real estate experts.
-        </p>
+        <p>Get in touch today with these Bel Marin Keys real estate experts.</p>
         <a class="font-bold pt-2 inline-block" href="/contact">Contact</a>
       </div>
     </section>
@@ -56,7 +36,7 @@
     <section class="community-history container mx-auto py-20 px-6 sm:px-0">
       <div class="flex flex-wrap">
         <div class="w-1/2 sm:w-1/4">
-          <img src="https://res.cloudinary.com/rivera-web-solutions/image/upload/v1557875261/BMK/kidsPlaying.jpg" alt="Kids playing on green field">
+          <img src="https://res.cloudinary.com/rivera-web-solutions/image/upload/v1558892606/BMK/4th.jpg" alt="People celebrating 4th of july in boat covered in American flag">
         </div>
         <div class="sm:pl-8 w-3/4">
           <p>Bel Marin Keys has great community events for you and your family. Get the information you need about all upcoming events and important community contacts.</p>
@@ -77,29 +57,42 @@
       <div class="container mx-auto py-16 px-6 sm:px-0">
         <p class="header pb-2">Great Place to Live</p>
         <div class="flex flex-wrap items-center">
-          <p class="sm:w-3/5">Sounds like a great place to live right? Now is a great time to look for your dream home, take a look at recent home sales and current listing. When you need help, Marc and Andrea are the local experts to help you find your new home in Bel Marin Keys.</p>
-          <a class="font-bold pt-4 sm:pt-0 mx-6 " href="/contact">Get in Touch</a>
-          <a class="font-bold pt-4 sm:pt-0 mx-6" href="/homeSales">Home Sales & Listings</a>
+          <p>Sounds like a great place to live right? Now is a great time to look for your dream home, take a look at recent home sales and current listing. When you need help, Marc and Andrea are the local experts to help you find your new home in Bel Marin Keys.</p>
+          <div class="py-4">
+            <!-- <a class="font-bold mr-4" href="/contact">Get in Touch</a>
+            <a class="font-bold mr-4" href="/homeSales">Home Sales & Listings</a> -->
+            <a class="font-bold mr-4" href="mailto:Andrea.Kraemer@cbnorcal.com?subject=Ask a Relator a question">Ask a Relator a question</a>
+          </div>
         </div>
       </div>
+    </section>
+    <section class="container mx-auto py-20 px-6 sm:px-0 text-center">
+      <p>This page was created by Marc Chappell & Andrea Kraemer, longtime residents and your local Realtor for Bel Marin Keys</p>
     </section>
   </div>
 </template>
 
 <script>
+import contactInfo from '~/components/contact-info'
 
 export default {
+  components: {
+    contactInfo
+  }
 
 }
 </script>
 
 <style>
+.hero-cta a {
+  @apply mx-4 m-2 no-underline text-white inline-block
+}
 .order-2 {
   order: 2;
 }
 .overlay {
   bottom: 10%;
-  right: 15%;
+  right: 25%;
 }
 .overlay a:hover {
   border-color: white;
@@ -109,6 +102,9 @@ export default {
 }
 .background-light-grey {
   background-color: #eee;
+}
+.local-experts p {
+  @apply py-2
 }
 @screen sm {
   .overlay {

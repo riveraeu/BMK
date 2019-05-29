@@ -3,22 +3,28 @@
     <div class="logo">
       <a class="title font-bold" href="/">BelMarinKeys.Info</a>
     </div>
-    <div class="text-right sm:hidden px-6">
-      <button class="sm:hidden focus:outline-none" @click="showMobileMenu = !showMobileMenu">
+    <div class="text-right md:hidden px-6">
+      <button class="md:hidden focus:outline-none" @click="showMobileMenu = !showMobileMenu">
         <div v-for="index in 3" :key="index" />
       </button>
     </div>
-    <div class="hidden sm:block right-nav">
-      <a href="">Contact</a>
-      <a href="">Community</a>
-      <a href="">History</a>
+    <div class="hidden md:block right-nav">
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/community">Community</a>
+      <a href="/locks-demo">Locks Demo</a>
+      <a href="/history">History</a>
+      <a href="">Photos</a>
       <a href="">Home Sales & Listings</a>
     </div>
     <div id="sidenav" :class="showMobileMenu ? 'w-1/2': 'w-0'" class="absolute pin-t pin-l h-screen shadow-lg overflow-x-hidden">
       <a class="title font-bold" href="/">BelMarinKeys.Info</a>
-      <a href="">Contact</a>
-      <a href="">Community</a>
-      <a href="">History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/community">Community</a>
+      <a href="/locks-demo">Locks Demo</a>
+      <a href="/history">History</a>
+      <a href="">Photos</a>
       <a href="">Home Sales & Listings</a>
     </div>
   </header>
