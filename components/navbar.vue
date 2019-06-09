@@ -15,7 +15,7 @@
       <a href="/locks-demo">Locks Demo</a>
       <a href="/history">History</a>
       <a href="/photos">Photos</a>
-      <a href="">Home Sales & Listings</a>
+      <a href="/homeSales&Listings">Home Sales & Listings</a>
     </div>
     <div id="sidenav" :class="showMobileMenu ? 'w-1/2': 'w-0'" class="absolute pin-t pin-l h-screen shadow-lg overflow-x-hidden">
       <a class="title font-bold" href="/">BelMarinKeys.Info</a>
@@ -25,7 +25,7 @@
       <a href="/locks-demo">Locks Demo</a>
       <a href="/history">History</a>
       <a href="/photos">Photos</a>
-      <a href="">Home Sales & Listings</a>
+      <a href="/homeSales&Listings">Home Sales & Listings</a>
     </div>
   </header>
 </template>
