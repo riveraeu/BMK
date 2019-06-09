@@ -18,7 +18,6 @@
       </div>
     </section>
     <section class="container mx-auto py-20 px-6 sm:px-0">
-      <contactInfo />
       <div class="pt-6 local-experts">
         <p class="header pb-2">Local Experts</p>
         <p>Get in touch today with these Bel Marin Keys real estate experts.</p>
@@ -67,18 +66,14 @@
       </div>
     </section>
     <section class="container mx-auto py-20 px-6 sm:px-0 text-center">
-      <p>This page was created by Marc Chappell & Andrea Kraemer, longtime residents and your local Realtor for Bel Marin Keys</p>
+      <p>This page was created by Marc Chappell & Andrea Kraemer, longtime residents and your local Realtors for Bel Marin Keys</p>
     </section>
   </div>
 </template>
 
 <script>
-import contactInfo from '~/components/contact-info'
 
 export default {
-  components: {
-    contactInfo
-  }
 
 }
 </script>

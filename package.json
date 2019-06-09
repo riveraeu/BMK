@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.7.1"
+    "nuxt": "^2.7.1",
+    "vue-image-lightbox": "^6.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
