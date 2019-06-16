@@ -1,8 +1,9 @@
 <template>
   <div class="container mx-auto py-20 px-6 sm:px-0">
-    <h1 class="py-4 header">About Marc and Andrea</h1>
+    <h1 class="py-4 header">Contact Marc and Andrea</h1>
     <contactInfo />
-    <p class="mt-8">With 26 years of Real Estate experience, <b>Andrea</b> has extensive knowledge of trends and intricacies of
+    <h1 class="pt-12 pb-4 header">About Marc and Andrea</h1>
+    <p>With 26 years of Real Estate experience, <b>Andrea</b> has extensive knowledge of trends and intricacies of
     Real Estate making her the perfect guide when you want to buy or sell a property. Her previous
     experiences and community knowledge uniquely qualifies her to assist in the search for an exceptional
     property for buyers, and secures the perfect buyer for sellers. Andrea’s philosophy of putting her clients
