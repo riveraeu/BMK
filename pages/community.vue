@@ -67,6 +67,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  head () {
+    return {
+      title: "BMK - Community"
+    }
+  }
+}
+</script>
+
+
 <style scoped>
 td {
   @apply pr-4

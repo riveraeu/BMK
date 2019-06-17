@@ -39,6 +39,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  head () {
+    return {
+      title: "BMK - History"
+    }
+  }
+}
+</script>
+
+
 <style scoped>
 .container a {
   color: #066fe2;

@@ -19,6 +19,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  head () {
+    return {
+      title: "BMK - Locks Demo"
+    }
+  }
+}
+</script>
+
 
 <style scoped>
 .container a {

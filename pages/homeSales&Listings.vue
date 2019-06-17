@@ -11,3 +11,13 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head () {
+    return {
+      title: "BMK - Home Sales & Listings"
+    }
+  }
+}
+</script>

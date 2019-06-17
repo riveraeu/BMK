@@ -34,6 +34,11 @@ export default {
       ]
     }
   },
+  head () {
+    return {
+      title: "BMK - Photos"
+    }
+  },
   methods: {
     openGallery (index) {
       this.$refs.lightbox.showImage(index)

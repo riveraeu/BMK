@@ -35,7 +35,12 @@ import contactInfo from '~/components/contact-info'
 export default {
   components: {
     contactInfo
-  }  
+  },
+  head () {
+    return {
+      title: "BMK - About & Contact"
+    }
+  }
 }
 </script>
 
