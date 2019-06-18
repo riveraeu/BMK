@@ -24,7 +24,7 @@
           This site was created by Andrea Kraemer and Marc Chappell both long term residents, community enthusiasts, and local Realtors. 
           This site is a work in process and your feedback is more than welcome!
         </p>
-        <a class="font-bold pt-2 inline-block" href="/about">Contact</a>
+        <a class="font-bold pt-2 inline-block" href="/about&contact">Contact</a>
       </div>
     </section>
     <section class="background-light-grey">
