@@ -46,6 +46,7 @@ header {
 header a {
   margin: 1rem;
   display: inline-block;
+  color: white;
 }
 header a:hover {
   border-color: white;
