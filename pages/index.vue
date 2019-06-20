@@ -99,6 +99,9 @@ export default {
 .overlay a:hover {
   border-color: white;
 }
+.container a {
+  color: #16202A;
+}
 .container a:hover {
   border-color: #16202A;
 }
