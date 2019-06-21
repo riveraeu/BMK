@@ -29,7 +29,6 @@ img {
 }
 a {
   text-decoration: none;
-  color: unset;
   transition: all ease-in .4s;
   border-bottom: 1px solid transparent;
 }
