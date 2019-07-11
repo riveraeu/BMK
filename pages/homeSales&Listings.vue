@@ -3,10 +3,10 @@
     <h1 class="py-4 header">Home Sales & Listings</h1>
     <div class="pdf  mb-4">
       <p><i>June 10th 2019</i></p>
-      <a href="https://res.cloudinary.com/rivera-web-solutions/image/upload/v1561087755/BMK/url2pdf.pdf" target="_blank">View PDF</a>
+      <a href="https://res.cloudinary.com/rivera-web-solutions/image/upload/v1562819357/BMK/MR_071019.pdf" target="_blank">View PDF</a>
     </div>
     <a v-for="(page, index) in marketReport" :key="index"
-     href="https://res.cloudinary.com/rivera-web-solutions/image/upload/v1561087755/BMK/url2pdf.pdf" target="_blank">
+     href="https://res.cloudinary.com/rivera-web-solutions/image/upload/v1562819357/BMK/MR_071019.pdf" target="_blank">
       <img :src="page.src" :alt="page.alt">
     </a>
   </div>
@@ -22,14 +22,12 @@ export default {
   data () {
     return {
       marketReport: [
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1561087699/BMK/0001-min.jpg', 'alt': 'BMK Market Report Page 1' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1561087699/BMK/0002-min.jpg', 'alt': 'BMK Market Report Page 2' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1561087699/BMK/0003-min.jpg', 'alt': 'BMK Market Report Page 3' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1561087699/BMK/0004-min.jpg', 'alt': 'BMK Market Report Page 4' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1561087699/BMK/0005-min.jpg', 'alt': 'BMK Market Report Page 5' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1561087699/BMK/0006-min.jpg', 'alt': 'BMK Market Report Page 6' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1561087699/BMK/0007-min.jpg', 'alt': 'BMK Market Report Page 7' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1561087699/BMK/0008-min.jpg', 'alt': 'BMK Market Report Page 8' }
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1562819211/BMK/MR_071019_02.jpg', 'alt': 'BMK Market Report Page 1' },
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1562819211/BMK/MR_071019_03.jpg', 'alt': 'BMK Market Report Page 2' },
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1562819211/BMK/MR_071019_04.jpg', 'alt': 'BMK Market Report Page 3' },
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1562819211/BMK/MR_071019_05.jpg', 'alt': 'BMK Market Report Page 4' },
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1562819211/BMK/MR_071019_06.jpg', 'alt': 'BMK Market Report Page 5' },
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1562819211/BMK/MR_071019_07.jpg', 'alt': 'BMK Market Report Page 6' }
       ]
     }
   }
