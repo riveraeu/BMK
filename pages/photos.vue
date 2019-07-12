@@ -30,7 +30,10 @@ export default {
         { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1560100816/BMK/7-min.jpg', 'alt': 'Rainbow in clouded sky, over the BMK waterfront'},
         { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1560100816/BMK/8-min.png', 'alt': 'Shot of rainbow over BMK'},
         { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1560100816/BMK/9-min.jpg', 'alt': 'Double rainbow!! over BMK with water, homes, and trees in the background'},
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1560100815/BMK/10-min.jpg', 'alt': 'Another rainbow over BMK on a clouded day'}
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1560100815/BMK/10-min.jpg', 'alt': 'Another rainbow over BMK on a clouded day'},
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1560100815/BMK/11-min.jpg', 'alt': 'Backyard living, view from backyard of boats in BMK '},
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1560100815/BMK/12-min.jpg', 'alt': 'BMK entrace, Bel Marin Keys post sign in the water'},
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1560100815/BMK/13-min.jpg', 'alt': 'View of the Sunset over BMK'}        
       ]
     }
   },

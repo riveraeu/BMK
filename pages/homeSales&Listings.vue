@@ -2,7 +2,7 @@
   <div class="container mx-auto py-20 px-6 sm:px-0 local-experts">
     <h1 class="py-4 header">Home Sales & Listings</h1>
     <div class="pdf  mb-4">
-      <p><i>June 10th 2019</i></p>
+      <p><i>July 9th 2019</i></p>
       <a href="https://res.cloudinary.com/rivera-web-solutions/image/upload/v1562819357/BMK/MR_071019.pdf" target="_blank">View PDF</a>
     </div>
     <a v-for="(page, index) in marketReport" :key="index"
