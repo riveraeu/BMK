@@ -22,7 +22,7 @@
         <p class="header pb-2">Local Experts</p>
         <p>Welcome to BelMarinKeys.info! Here you will find information on the latest real estate sales and listings, photos of our community, historical photos and information.
           This site was created by Andrea Kraemer and Marc Chappell both long term residents, community enthusiasts, and local Realtors. 
-          This site is a work in process and your feedback is more than welcome!
+          This site is a work in progress and your feedback is more than welcome!
         </p>
         <a class="font-bold pt-2 inline-block" href="/about&contact">Contact</a>
       </div>
@@ -47,7 +47,7 @@
       </div>
       <div class="flex flex-wrap py-16">
         <div class="sm:pr-8 w-3/4 sm:text-right order-2">
-          <p>Bel Marin Keys has a great history that is really unique and interesting. Read about the founding of this community and the history behind its development. Really good stuff here.</p>
+          <p>Bel Marin Keys has a great history that is really unique and interesting. Read about the founding of this community and the history behind its development.</p>
           <a class="font-bold pt-2 inline-block" href="/history">Historical Info</a>
         </div>
         <div class="w-1/2 sm:w-1/4">
