@@ -5,7 +5,7 @@
     <div class="flex flex-wrap">
       <div class="w-full sm:w-1/2">
         <img src="https://res.cloudinary.com/rivera-web-solutions/image/upload/v1558919269/BMK/waterways-map.jpg" alt="map of BMK waterways">
-        <img src="https://res.cloudinary.com/rivera-web-solutions/image/upload/v1558927892/BMK/BMK-locks.jpg" alt="flyer with information about locks demo">
+        <img src="https://res.cloudinary.com/rivera-web-solutions/image/upload/v1565923416/BMK/BMK-locks.jpg" alt="flyer with information about locks demo">
       </div>
       <div class="w-full sm:w-1/2 p-4 items-center">
         <p class="title font-bold">Marina Lock</p>
