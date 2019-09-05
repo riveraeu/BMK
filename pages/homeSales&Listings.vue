@@ -21,13 +21,12 @@ export default {
   data () {
     return {
       marketReport: [
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1565923955/BMK/MR_2.jpg', 'alt': 'BMK Market Report Page 1' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1565923954/BMK/MR_3.jpg', 'alt': 'BMK Market Report Page 2' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1565923955/BMK/MR_4.jpg', 'alt': 'BMK Market Report Page 3' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1565923955/BMK/MR_5.jpg', 'alt': 'BMK Market Report Page 4' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1565923955/BMK/MR_6.jpg', 'alt': 'BMK Market Report Page 5' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1565923955/BMK/MR_7.jpg', 'alt': 'BMK Market Report Page 6' },
-        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1565923955/BMK/MR_8.jpg', 'alt': 'BMK Market Report Page 7' }
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1567649805/BMK/MR_2.jpg', 'alt': 'BMK Market Report Page 2' },
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1567649805/BMK/MR_3.jpg', 'alt': 'BMK Market Report Page 3' },
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1567649806/BMK/MR_4.jpg', 'alt': 'BMK Market Report Page 4' },
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1567649805/BMK/MR_5.jpg', 'alt': 'BMK Market Report Page 5' },
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1567649805/BMK/MR_6.jpg', 'alt': 'BMK Market Report Page 6' },
+        { 'src': 'https://res.cloudinary.com/rivera-web-solutions/image/upload/v1567649805/BMK/MR_7.jpg', 'alt': 'BMK Market Report Page 7' }
       ]
     }
   }
